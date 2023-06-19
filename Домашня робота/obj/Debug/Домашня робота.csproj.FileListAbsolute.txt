@@ -1,0 +1,11 @@
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\bin\Debug\Домашня робота.exe.config
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\bin\Debug\Домашня робота.exe
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\bin\Debug\Домашня робота.pdb
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\obj\Debug\Домашня робота.csproj.AssemblyReference.cache
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\obj\Debug\Домашня робота.csproj.SuggestedBindingRedirects.cache
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\obj\Debug\Домашня_робота.Form1.resources
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\obj\Debug\Домашня_робота.Properties.Resources.resources
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\obj\Debug\Домашня робота.csproj.GenerateResource.cache
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\obj\Debug\Домашня робота.csproj.CoreCompileInputs.cache
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\obj\Debug\Домашня робота.exe
+D:\GitHubDesktop\MyHomework_16.06.23\Домашня робота\obj\Debug\Домашня робота.pdb
