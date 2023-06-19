@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 using System.Configuration;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Net.Http.Headers;
 
 namespace Домашня_робота
 {
@@ -80,7 +81,30 @@ namespace Домашня_робота
 
         private void ShowAllButton_Click(object sender, EventArgs e)
         {
+            StorageProductsPictureBox.Image = null;
 
+            if (dt == null) dt = new DataTable();
+            else dt.Clear();
+
+            adapter = adapter ?? new SqlDataAdapter();
+
+            try
+            {
+                adapter.SelectCommand = new SqlCommand(@"select Pr.Name as Provider, Pr.Phone,
+                                                         P.Name as Product, P.Quantity, P.CostPrice as Price, P.DeliveryDate as [Delivery Date],
+                                                         PP.Picture as [Product Image]
+                                                         from Providers as Pr join Products as P
+                                                         on Pr.Id = P.ProviderId
+                                                         join ProductsPictures as PP
+                                                         on P.Id = PP.ProductId", conn);
+
+                adapter.Fill(dt);
+                StorageDataGridView.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void LoadPicture()
